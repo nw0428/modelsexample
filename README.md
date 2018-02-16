@@ -18,3 +18,8 @@ ActiveRecord models are now in Rails5 called ApplicationRecord models. They are 
 Throughout all the excercises we will make use of the rails console.
 
 Excercise 1 is a car. Find it in app/models/car.rb. It is going to be an ActiveModel model.
+Excercise 2 is a Student. The student will be defined in two places first in a migration in db/migrations/...create_students.rb and second in its model in app/models/student.rb. Before playing with students we need to run `rails db:create db:migrate`. These commands create a database(s) for the modelsexample app and then run any migrations that have not been run on that database
+
+
+
+For homework ( I still need to add a good homework exercise ) and also read up on [ActiveRecord validations](http://guides.rubyonrails.org/active_record_validations.html#valid-questionmark-and-invalid-questionmark), [ActiveRecord](http://guides.rubyonrails.org/active_record_basics.html), and [Active Model](http://guides.rubyonrails.org/active_model_basics.html)
