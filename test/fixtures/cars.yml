@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  price: 1.5
+  make: MyString
+  model: MyString
+  year: 1
+  number_of_wheels: 1
+  mpg: 1.5
+
+two:
+  price: 1.5
+  make: MyString
+  model: MyString
+  year: 1
+  number_of_wheels: 1
+  mpg: 1.5
